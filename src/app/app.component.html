@@ -1,0 +1,8 @@
+<div id="top">
+    <div id="a">ToDoList</div>
+    <input type="text" id="todo" placeholder=" 添加ToDo" [(ngModel)]="content" >
+    <button id="btn" (click)="addData()">添加</button>
+</div>
+<div id="bottom">
+    <app-list [arrD]="arrData" (getIndex)="getI($event)"></app-list>
+</div>
