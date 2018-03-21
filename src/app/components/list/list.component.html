@@ -1,11 +1,11 @@
 <section>
-    <h2>正在进行 <span id="todocount">{{num1}}</span></h2>
+    <h2>正在进行 <span id="todocount">{{arrD.length}}</span></h2>
     <ol id="todolist" class="demo-box">
         <li *ngFor="let item of arrD;let idx = index;">
             <input type="checkbox" (change)="change(idx)">{{item}}  <button class="del" (click)="delData(idx)">删除</button>
         </li>
     </ol>
-    <h2>已经完成 <span id="donecount">{{num2}}</span></h2>
+    <h2>已经完成 <span id="donecount">{{comlist.length}}</span></h2>
     <ul id="donelist">
         <li *ngFor="let item of comlist;let idx = index;">
             <input type="checkbox" checked (change)="change2(idx)">{{item}} <button class="del" (click)="delData2(idx)">删除</button>
