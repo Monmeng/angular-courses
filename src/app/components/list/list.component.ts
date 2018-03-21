@@ -1,4 +1,4 @@
-import { Component, OnInit,Input,Output,EventEmitter } from '@angular/core';
+import { Component, OnInit,Input,Output,EventEmitter} from '@angular/core';
 
 @Component({
   selector: 'app-list',
@@ -16,7 +16,7 @@ export class ListComponent implements OnInit {
   }
   comlist=[];
   change(i){
-    this.comlist.push(this.arrD[i])
+    this.comlist.push(this.arrD[i]);
     this.arrD.splice(i,1);
   }
   change2(i){ 
