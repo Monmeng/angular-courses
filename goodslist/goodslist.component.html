@@ -1,0 +1,16 @@
+<!-- <ul>
+  <li *ngFor="let item of list;let i=index;">
+    <a routerLink="['/gooddetail/',i]">{{item}}</a>
+  </li>
+</ul> -->
+<router-outlet></router-outlet>
+<ul>
+ 
+  <li *ngFor="let item of list;let i=index;" (click)="goDetail(i)">
+    <!-- {{item}} -->
+    <img src="{{item.goodsListImg}}"/>
+    <div>{{item.goodsName}}</div>
+    <div class="a">￥{{item.price}}</div>
+    <div class="b">惊爆{{item.discount}}折</div>
+  </li>
+</ul>
