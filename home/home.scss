@@ -1,0 +1,75 @@
+page-home {
+    // .top{
+    //     background-color:#fedb47;
+    //     // height:126px;
+    // }
+    .logo{
+        height:34px;
+    }
+    .checkpic{
+        float:right;
+        margin-top:10px;
+        width:42px;
+        height:48px;
+    }
+   
+    ion-slides{
+        height:auto;
+    }
+    .spanfont{
+        font-size:16px;
+        text-align:center;
+    }
+    ion-col{
+        border:1px solid #dfdfdf;
+        margin-left:20px;
+        height:100px;
+    
+    }
+    ion-col img{
+        margin-left:32%;
+        margin-top:13px;
+        margin-bottom:12px;
+        width:33px;
+        height:33px;
+    }
+    .youzhi{
+        color:#666666;
+        font-size:21px;
+        height:55px;
+        line-height:55px;
+        padding-left:10px;
+       
+    }
+    .listTitle{
+        height:33px;
+        font-size:17px;
+        padding-left:30px;
+        border-bottom:1px solid #dfdfdf;
+        line-height:33px;
+    }
+    .graycolor{
+        color:#afafaf;
+        padding-left:1px;
+    }
+    .dark{
+        color:#222;
+    }
+    .one{
+        float:left;
+    }
+    .two{
+        float:left;
+        margin-left:25px;
+    }
+    .three{
+        float:left;
+        margin-left:18px;
+    }
+    .redcolor{
+        color:#c01444;
+        font-size:24px;
+        font-weight:400;
+        padding-top:5px;
+    }
+}
