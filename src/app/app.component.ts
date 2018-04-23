@@ -1,25 +1,31 @@
 import { Component } from '@angular/core';
-import { ServiceService } from './services/service.service'; 
+import { Platform } from 'ionic-angular';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+
+import { TabsPage } from '../pages/tabs/tabs';
+
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: 'app.html'
 })
-export class AppComponent { 
-  arr=new ServiceService();
-  idx:number;
-  i:number=0;
-  getI(ww){
-    this.idx=ww;
-  }
-  arrData = [];
-  comlist = [];
-  content = '';
-  addData(){
-    this.i++;
-    this.arrData.push(this.content);
-    this.arr.setdata(this.i,this.content);
-    this.content = '';
+export class MyApp {
+  rootPage:any = TabsPage;
+
+  constructor(platform: Platform,private statusBar: StatusBar,private splashScreen: SplashScreen) {
+    platform.ready().then(() => {
+      // Okay, so the platform is ready and our plugins are available.
+      // Here you can do any higher level native things you might need.
+      statusBar.styleDefault();
+      splashScreen.hide();
+    });
+    this.statusBar.overlaysWebView(true);
+
+    // set status bar to white
+    this.statusBar.backgroundColorByHexString('#ffffff');
+    this.splashScreen.show();
     
+    this.splashScreen.hide();
   }
+  // let status bar overlay webview
+ 
 }

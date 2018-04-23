@@ -1,0 +1,62 @@
+page-forgetpwd {
+    ion-content{
+        background: transparent url(../../assets/imgs/登录-bg.png) 0 0 no-repeat;
+        background-size: 100%;
+    }
+    ion-title{      
+        margin-left:31%;
+    }   
+    
+    .item-md {
+        font-size: 1.6rem;
+        color: #000;
+        background-color: transparent;
+        // margin-top:75px;
+    }
+    ion-label img {
+        width: 18px;
+        height:25px;
+    }
+   .item1{
+       width:85%;
+       margin:0px auto;
+       margin-top:20px;
+   }
+   .item2{
+       margin-top:15px;
+       width:51%;
+       margin-left:7%;
+   }
+   .item3{
+    width:85%;
+    margin:0px auto;
+    margin-top:15px;
+   }
+   .yanbtn{
+    background-color:#fedb47;    
+    width:120px;
+    height:40px;
+    color:black;
+    font-weight:400;
+    font-size:1.5rem;
+    margin-top:-40px;
+    margin-right:7%;
+    float:right;
+   }
+   ion-input{
+       margin-left:-8px;
+   }
+   .text-input-md {
+    color: white;
+   }
+    .yellow{
+        background-color:#fedb47;
+        margin-left:8%;
+        width:300px;
+        height:48px;
+        color:black;
+        font-weight:400;
+        font-size:1.7rem;
+        margin-top:40px;
+    }
+}

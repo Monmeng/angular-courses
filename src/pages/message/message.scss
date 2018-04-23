@@ -1,0 +1,23 @@
+page-message {
+    ion-title{
+        text-align: center;
+    }
+    .toolbar-title-md {
+        font-size: 1.9rem;
+        font-weight:400;
+        color:black;
+    }
+    .bg h2{
+        font-size:1.7rem;
+        font-weight:600;
+    }
+    ion-item span{
+        color:#ccc;
+        font-weight: 300;
+        font-size:1.3rem;
+        float:right;
+    }
+    ion-item p{
+        font-size:1.4rem;
+    }
+}

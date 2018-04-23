@@ -1,0 +1,81 @@
+page-home {
+    // .top{
+    //     background-color:#fedb47;
+    //     // height:126px;
+    // }
+    .logo{
+        height:34px;
+        margin-left:25%;
+    }
+    .checkpic{
+        float:right;
+        margin-top:10px;
+        width:42px;
+        height:48px;
+    }
+   
+    ion-slides{
+        height:auto;
+    }
+    .spanfont{
+        font-size:1.3rem;
+        text-align:center;
+    }
+    ion-col{
+        border:1px solid #dfdfdf;
+        margin-left:20px;
+        height:100px;   
+    }
+    ion-col img{
+        margin-left:31%;
+        margin-top:13px;
+        margin-bottom:12px;
+        width:33px;
+        height:33px;
+    }
+    .youzhi{
+        color:#666666;
+        font-size:1.8rem;
+        height:55px;
+        line-height:55px;
+        padding-left:10px;
+       
+    }
+    .listTitle{
+        height:33px;
+        font-size:1.5rem;
+        padding-left:10px;
+        border-bottom:1px solid #dfdfdf;
+        line-height:33px;
+    }
+    .graycolor{
+        color:#afafaf;
+        padding-left:1px;
+        font-size:1.3rem;
+    }
+    .dark{
+        color:#222;
+        font-size:1.3rem;
+    }
+    .one{
+        float:left;
+    }
+    .two{
+        float:left;
+        margin-left:15px;
+    }
+    .three{
+        float:left;
+        margin-left:15px;
+    }
+    .redcolor{
+        color:#c01444;
+        font-size:1.7rem;
+        font-weight:400;
+        padding-top:5px;
+    }
+    .blankgray{
+        height:10px;
+        background-color:#f9f9f9;
+    }
+}

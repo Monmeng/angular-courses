@@ -1,0 +1,63 @@
+page-login {
+    ion-content{
+        background: transparent url(../../assets/imgs/登录-bg.png) 0 0 no-repeat;
+        background-size: 100%;
+    }
+    ion-title{      
+        margin-left:31%;
+    }
+    .text-input-md{
+        font-size:1.8rem;
+        color: white;
+    }
+    .logo{
+        width:150px;
+        height:50px;
+        margin-top:15%;
+        margin-left:29%;
+    }  
+    .font{
+        font-size:1.4rem;
+        color:white;
+        text-align:center;
+    }
+    .item-md {
+        border-radius: 0;
+        position: relative;
+        font-size: 1.7rem;
+        color: #000;
+        background-color: transparent;
+    }
+    .itembox{
+        width:85%;
+        margin:0px auto;
+        margin-top:0px;
+    }
+    ion-label img {
+        width: 25px;
+        height:30px;
+    }
+  
+    .yellow{
+        background-color:#fedb47;
+        margin-left:8%;
+        width:300px;
+        height:48px;
+        color:black;
+        font-weight:300;
+        font-size:1.7rem;
+        margin-top:38px;
+    }
+    .blank{
+        border:2px solid #fedb47;
+        background-color:transparent;
+        margin-left:8%;
+        width:300px;
+        height:48px;
+        color:#fedb47;
+        font-weight:300;
+        font-size:1.7rem;
+        margin-top:20px;
+    }
+
+}

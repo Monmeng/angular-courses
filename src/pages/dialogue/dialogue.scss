@@ -1,0 +1,76 @@
+page-dialogue {
+    .bg{
+        background-color: #eeeeee;
+    }
+    ion-title{
+        text-align: center;
+    }
+    .time{
+        font-size: 1.4rem;
+        font-weight:300;
+        color:#999999;
+        height:40px;
+        line-height:40px;
+        text-align:center;
+    }
+    .ziyapic img{
+        width:50px;
+        height:50px;
+        border-radius: 50%;
+        margin-left:10px;
+        float: left;
+    }
+    .ziyafont{
+        width:190px;
+        height:35px;
+        line-height:35px;
+        padding-left:8px;
+        background-color: #fedb47;
+        font-size:1.7rem;
+        font-weight:300;
+        margin-top:7px;
+        margin-left:8px;
+        float:left;
+    }
+    .ziyapic1 img{
+        width:50px;
+        height:50px;
+        border-radius: 50%;
+        margin-top:90px;
+        margin-left:10px;
+        float: left;
+    }
+    .ziyafont1{
+        width:210px;
+        height:60px;
+        padding-left:8px;
+        padding-right:8px;
+        line-height:30px;
+        background-color: #fedb47;
+        font-size:1.6rem;
+        font-weight:300;
+        margin-top:35px;
+        margin-left:8px;
+        float:left;
+    }
+    .minepic img{
+        width:50px;
+        height:50px;
+        border-radius: 50%;
+        float:right;
+        margin-top:70px;
+        margin-right:10px;
+    }
+    .font{
+        width:230px;
+        height:35px;
+        line-height:35px;
+        padding-left:8px;
+        background-color:white;
+        font-size:1.7rem;
+        font-weight:300;
+        margin-top:37px;
+        margin-right:8px;
+        float:right;
+    }
+}

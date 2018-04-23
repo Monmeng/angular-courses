@@ -1,0 +1,70 @@
+
+<ion-header no-border>
+  <ion-navbar color="yel">
+      <ion-title style="text-align:center;">我的</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="one">
+    <img class="touxiang" width="80" height="80" src="../../assets/imgs/我的_you.png">
+    <button ion-button round class="btn" (click)="login()">登录</button>
+    <div class="user">未登录</div>
+    <div class="add">北京资芽科技有限公司</div>
+  </div>
+  <div class="two">
+      <ion-list>
+          <button ion-item>
+             <img width="35" height="35" src="../../assets/imgs/我的_01.png"><div class="font">芽币</div>
+             <img width="12" height="18" src="../../assets/imgs/arrow.png" style="float:right;margin-top:11px;">
+          </button>  
+          <button ion-item (click)="changeOne()">
+              <img width="35" height="35" src="../../assets/imgs/我的_02.png"><div class="font">我发布的</div>
+              <img width="12" height="18" src="../../assets/imgs/arrow.png" style="float:right;margin-top:11px;">
+          </button>
+          <button ion-item (click)="changeTwo()">
+              <img width="35" height="35" src="../../assets/imgs/我的_03.png"><div class="font">我合作的</div>
+              <img width="12" height="18" src="../../assets/imgs/arrow.png" style="float:right;margin-top:11px;">
+          </button>
+          <div style="height:10px;background-color:#f9f9f9;"></div>
+          <button ion-item>
+              <img width="35" height="35" src="../../assets/imgs/我的_04.png"><div class="font">我的收藏</div>
+              <img width="12" height="18" src="../../assets/imgs/arrow.png" style="float:right;margin-top:11px;">
+           </button>  
+           <button ion-item>
+               <img width="35" height="35" src="../../assets/imgs/我的_05.png"><div class="font">我的草稿箱</div>
+               <img width="12" height="18" src="../../assets/imgs/arrow.png" style="float:right;margin-top:11px;">
+           </button>
+           <button ion-item>
+               <img width="35" height="35" src="../../assets/imgs/我的_06.png"><div class="font">视频发布</div>
+               <img width="12" height="18" src="../../assets/imgs/arrow.png" style="float:right;margin-top:11px;">
+           </button>
+           <button ion-item>
+              <img width="35" height="35" src="../../assets/imgs/我的_07.png"><div class="font">完善信息</div>
+              <img width="12" height="18" src="../../assets/imgs/arrow.png" style="float:right;margin-top:11px;">
+           </button>  
+           <button ion-item>
+               <img width="35" height="35" src="../../assets/imgs/我的_08.png"><div class="font">VIP等级</div>
+               <img width="12" height="18" src="../../assets/imgs/arrow.png" style="float:right;margin-top:11px;">
+           </button>
+           <button ion-item>
+               <img width="35" height="35" src="../../assets/imgs/我的_08.png"><div class="font">账户安全</div>
+               <img width="12" height="18" src="../../assets/imgs/arrow.png" style="float:right;margin-top:11px;">
+           </button>
+           <button ion-item>
+              <img width="35" height="35" src="../../assets/imgs/我的_09.png"><div class="font">账户安全</div>
+              <img width="12" height="18" src="../../assets/imgs/arrow.png" style="float:right;margin-top:11px;">
+           </button>  
+           <button ion-item>
+               <img width="35" height="35" src="../../assets/imgs/我的_10.png"><div class="font">帮助与反馈</div>
+               <img width="12" height="18" src="../../assets/imgs/arrow.png" style="float:right;margin-top:11px;">
+           </button>
+           <button ion-item (click)="changeThree()">
+               <img width="35" height="35" src="../../assets/imgs/我的_11.png"><div class="font">设置</div>
+               <img width="12" height="18" src="../../assets/imgs/arrow.png" style="float:right;margin-top:11px;">
+           </button>
+      </ion-list>
+     
+
+  </div>
+</ion-content>

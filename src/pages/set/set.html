@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar color="yel">
+      <ion-title>设置</ion-title>
+      <ion-buttons end style="width:55px;">
+          <button ion-button icon-only>
+            <ion-icon></ion-icon>
+          </button>
+      </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-list>
+        <button ion-item>
+           <div class="font">图片质量设置</div>
+           <img width="10" height="15" src="../../assets/imgs/arrow.png" style="float:right;margin-top:10px;">
+        </button> 
+        <button ion-item>
+          <div class="font">自动播放视频设置</div>
+          <img width="10" height="15" src="../../assets/imgs/arrow.png" style="float:right;margin-top:10px;">
+        </button> 
+        <button ion-item>
+          <div class="font">消息提醒设置</div>
+          <img width="10" height="15" src="../../assets/imgs/arrow.png" style="float:right;margin-top:10px;">
+        </button> 
+        <ion-item>
+          <ion-label class="font">开启听筒模式</ion-label>
+          <ion-toggle checked="false"></ion-toggle>        
+         </ion-item>
+        <button ion-item>
+            <div class="font">关于资芽</div>
+            <img width="10" height="15" src="../../assets/imgs/arrow.png" style="float:right;margin-top:10px;">
+         </button> 
+         <button ion-item>
+           <div class="font">资芽公约（免费声明等）</div>
+           <img width="10" height="15" src="../../assets/imgs/arrow.png" style="float:right;margin-top:10px;">
+         </button> 
+         <button ion-item>
+           <div class="font">把资芽推荐给朋友</div>
+           <img width="10" height="15" src="../../assets/imgs/arrow.png" style="float:right;margin-top:10px;">
+         </button> 
+         <button ion-item>
+           <div class="font">清除缓存</div>         
+         </button>  
+         <button ion-item>
+          <div class="font"></div>         
+        </button>  
+    </ion-list>
+    <button ion-button round class="yellow" (click)="login()">退出登录</button>
+</ion-content>

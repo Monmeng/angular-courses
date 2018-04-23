@@ -1,0 +1,55 @@
+page-mine {
+    .toolbar-title-ios {
+        font-size: 2rem;
+        font-weight:400;
+    }
+    .back-button-text-ios{
+        display: none;
+    }
+    .one{
+        height:190px;
+        background-color: #f9f9f9;
+    }
+    .touxiang{
+        border-radius: 50%;
+        margin-left:39%;
+        margin-top:25px;
+    }
+    .btn{     
+        border:2px solid #fedb47;
+        width:85px;
+        height:30px;
+        color:#fedb47;
+        background-color: white;
+        font-weight:300;
+        font-size:1.5rem;
+        margin-top:10px;
+        padding-left:32px;
+        float:right;
+    }
+    .user{
+        width:100%;
+        font-size:2rem;
+        font-weight:500;
+        text-align:center;
+        margin-top:5px;
+        color:#b6b6b6;
+    }
+    .add{
+        width:100%;
+        text-align:center;
+        font-size:1.8rem;
+        font-weight:300;
+        margin-top:5px;
+        color:#555555;
+    }
+    ion-list img{
+        float:left;
+    }
+    .font{
+        float:left;
+        font-size: 1.8rem; 
+        padding-top:8px;
+        padding-left:10px;
+     }
+}
